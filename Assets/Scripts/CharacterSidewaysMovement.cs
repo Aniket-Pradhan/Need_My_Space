@@ -41,7 +41,7 @@ public class CharacterSidewaysMovement : MonoBehaviour
         anim = CharacterGO.GetComponent<Animator>();
         inputDetector = GetComponent<IInputDetector>();
         controller = GetComponent<CharacterController>();
-        moveDirection.y -= gravity * Time.deltaTime;
+        moveDirection.y = 0.3f;
     }
 
     // Update is called once per frame
@@ -50,9 +50,9 @@ public class CharacterSidewaysMovement : MonoBehaviour
         switch (GameManager.Instance.GameState)
         {
             case GameState.Start:
-                if (Input.GetMouseButtonUp(0) || Input.GetKeyDown("a")) 
+                if (Input.GetMouseButtonDown(0) || Input.GetKeyDown("a")) 
                 {
-                    anim.SetBool(Constants.AnimationStarted, true);
+                    anim.SetBool("Running", true);
                     var instance = GameManager.Instance;
                     instance.GameState = GameState.Playing;
 
@@ -67,7 +67,7 @@ public class CharacterSidewaysMovement : MonoBehaviour
                 DetectJumpOrSwipeLeftRight();
 
                 //apply gravity
-//                moveDirection.y -= gravity * Time.deltaTime;
+                moveDirection.y -= gravity * Time.deltaTime;
 
                 if (isChangingLane)
                 {
@@ -99,7 +99,7 @@ public class CharacterSidewaysMovement : MonoBehaviour
 
     private void CheckHeight()
     {
-        if (transform.position.y < -10)
+        if (transform.position.y < 0)
         {
             GameManager.Instance.Die();
         }

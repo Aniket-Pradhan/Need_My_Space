@@ -16,8 +16,8 @@ public class RandomMaterial : MonoBehaviour {
     /// <returns></returns>
     public Material GetRandomMaterial()
     {
-        return Resources.Load("Materials/whiteMaterial") as Material;
-        int x = 0;
+        return Resources.Load("Materials/Road") as Material;
+//        int x = 0;
 //        int x = Random.Range(0, 5);
 //        if (x == 0)
 //            return Resources.Load("Materials/redMaterial") as Material;
