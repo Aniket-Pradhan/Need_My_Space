@@ -820,11 +820,11 @@ Prefab:
     - target: {fileID: 2316066, guid: c024cdd143c954da9a435afc234e08d4, type: 2}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 99a3908ca60b28141b30247bd383b74c, type: 2}
+      objectReference: {fileID: 2100000, guid: 658cebb2035b1e045ac64ed2b2744b8c, type: 2}
     - target: {fileID: 2316278, guid: c024cdd143c954da9a435afc234e08d4, type: 2}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 99a3908ca60b28141b30247bd383b74c, type: 2}
+      objectReference: {fileID: 2100000, guid: 658cebb2035b1e045ac64ed2b2744b8c, type: 2}
     - target: {fileID: 400048, guid: c024cdd143c954da9a435afc234e08d4, type: 2}
       propertyPath: m_LocalScale.x
       value: 0
@@ -840,6 +840,10 @@ Prefab:
     - target: {fileID: 400046, guid: c024cdd143c954da9a435afc234e08d4, type: 2}
       propertyPath: m_LocalPosition.x
       value: 5.24
+      objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: c024cdd143c954da9a435afc234e08d4, type: 2}
+      propertyPath: m_TagString
+      value: WidePathBorder
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c024cdd143c954da9a435afc234e08d4, type: 2}
@@ -2390,6 +2394,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gravity: 20
   SideWaysSpeed: 10
+  character: {fileID: 0}
   JumpSpeed: 8
   Speed: 6
   CharacterGO: {fileID: 968040712}

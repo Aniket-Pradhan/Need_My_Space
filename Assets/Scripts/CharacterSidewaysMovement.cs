@@ -19,12 +19,17 @@ public class CharacterSidewaysMovement : MonoBehaviour
 
     public float SideWaysSpeed = 5.0f;
 
+    public Rigidbody character;
+    
     public float JumpSpeed = 8.0f;
     public float Speed = 6.0f;
     //Max gameobject
     public Transform CharacterGO;
     
     IInputDetector inputDetector = null;
+    
+    private Vector3 moveDirection2 = Vector3.zero;
+    
 
     // Use this for initialization
     void Start()
@@ -80,7 +85,12 @@ public class CharacterSidewaysMovement : MonoBehaviour
 
                 //move the player
                 controller.Move(moveDirection * Time.deltaTime);
-                transform.Translate(Input.acceleration.x*1.5f, 0, 0);
+                
+                
+//                Vector3 vect = new Vector3(Input.acceleration.x * Time.deltaTime, 0, 0);
+//                character.AddForce(vect * 1.5f);
+//                controller.Move(vect * Time.deltaTime);
+                transform.Translate(Input.acceleration.x*2f, 0, 0);
                 break;
             
             case GameState.Dead:
@@ -142,13 +152,11 @@ public class CharacterSidewaysMovement : MonoBehaviour
     public void OnControllerColliderHit(ControllerColliderHit hit)
     {
         //if we hit the left or right border
-        if(hit.gameObject.tag == Constants.WidePathBorderTag)
+        if(hit.gameObject.CompareTag(Constants.WidePathBorderTag))
         {
             isChangingLane = false;
             moveDirection.x = 0;
         }
     }
-
-    
 
 }
