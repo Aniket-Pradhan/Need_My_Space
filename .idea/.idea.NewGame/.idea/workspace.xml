@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ab69347-f5de-4a82-991e-c456fb4e31b9" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/WideStraightPath.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/WideStraightPath.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/straightPathsLevel.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/straightPathsLevel.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CharacterSidewaysMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CharacterSidewaysMovement.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PathSpawnCollider.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PathSpawnCollider.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UIManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UIManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/AssetImportState" beforeDir="false" afterPath="$PROJECT_DIR$/Library/AssetImportState" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/EditorUserBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/EditorUserBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.NewGame/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.NewGame/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/assetDatabase3" beforeDir="false" afterPath="$PROJECT_DIR$/Library/assetDatabase3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/metadata/00/00000000000000002000000000000000" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/00/00000000000000002000000000000000" afterDir="false" />
@@ -27,18 +21,7 @@
       <change beforePath="$PROJECT_DIR$/Library/metadata/00/0000000000000000a100000000000000" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/00/0000000000000000a100000000000000" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/metadata/00/0000000000000000b000000000000000" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/00/0000000000000000b000000000000000" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/metadata/00/0000000000000000c000000000000000" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/00/0000000000000000c000000000000000" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/metadata/13/1322fd896bbb15bb6e335591b766ae62.info" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/13/1322fd896bbb15bb6e335591b766ae62.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/metadata/45/453f100e6bdae4dfd9e655927819dc85.info" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/45/453f100e6bdae4dfd9e655927819dc85.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/metadata/79/7927683d1fc5848b5abfb54ebb1028ec.info" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/79/7927683d1fc5848b5abfb54ebb1028ec.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/metadata/86/86c008322e7c647149878156c5b81940.info" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/86/86c008322e7c647149878156c5b81940.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/metadata/a6/a6842a74831964edc8fefa1c0aed89dc.info" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/a6/a6842a74831964edc8fefa1c0aed89dc.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/metadata/b5/b52e557db2c2b4eebb10444f1d582029.info" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/b5/b52e557db2c2b4eebb10444f1d582029.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/metadata/c9/c99bfe4fc4e5c4dc3917c14075acd117.info" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/c9/c99bfe4fc4e5c4dc3917c14075acd117.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/metadata/ce/ce4395ccdb12cf62fca756358be1a892.info" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/ce/ce4395ccdb12cf62fca756358be1a892.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe0.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -52,8 +35,8 @@
       <file leaf-file-name="CharacterSidewaysMovement.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/CharacterSidewaysMovement.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="431">
-              <caret line="79" selection-start-line="79" selection-end-line="79" />
+            <state relative-caret-position="105">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
               <folding>
                 <marker date="1538203351720" expanded="false" signature="7:102" ph="..." />
                 <marker date="1538203351720" expanded="true" signature="158:4527" ph="{...}" />
@@ -119,28 +102,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PathSpawnCollider.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PathSpawnCollider.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/PathSpawnCollider.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+            <state relative-caret-position="90">
+              <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
               <folding>
-                <marker date="1538201682233" expanded="false" signature="6:44" ph="..." />
-                <marker date="1538201682233" expanded="true" signature="93:1699" ph="{...}" />
-                <marker date="1538201682233" expanded="true" signature="281:1696" ph="{...}" />
-                <marker date="1538201682233" expanded="true" signature="296:382" ph="/* player has hit the collider ... */" />
-                <marker date="1538201682233" expanded="true" signature="405:767" ph="/* find whether the next path will be straight, left or right ... */" />
-                <marker date="1538201682233" expanded="true" signature="865:1667" ph="/* Instantiate(Path, PathSpawnPoints[0].position, PathSpawnPoints[0].rotation); ... */" />
+                <marker date="1538203877972" expanded="false" signature="6:44" ph="..." />
+                <marker date="1538203877972" expanded="true" signature="93:1703" ph="{...}" />
+                <marker date="1538203877972" expanded="true" signature="281:1700" ph="{...}" />
+                <marker date="1538203877972" expanded="true" signature="296:382" ph="/* player has hit the collider ... */" />
+                <marker date="1538203877972" expanded="true" signature="405:771" ph="/* find whether the next path will be straight, left or right ... */" />
+                <marker date="1538203877972" expanded="true" signature="869:1671" ph="/* Instantiate(Path, PathSpawnPoints[0].position, PathSpawnPoints[0].rotation); ... */" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UIManager.cs" pinned="false" current-in-tab="false">
+      <file leaf-file-name="UIManager.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/UIManager.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="9" column="56" selection-start-line="9" selection-start-column="56" selection-end-line="9" selection-end-column="56" />
+            <state relative-caret-position="195">
+              <caret line="54" column="5" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
               <folding>
                 <marker date="1538200210032" expanded="false" signature="6:66" ph="..." />
                 <marker date="1538200210032" expanded="true" signature="106:1243" ph="{...}" />
@@ -156,19 +139,6 @@
                 <marker date="1538200210032" expanded="true" signature="956:1019" ph="{...}" />
                 <marker date="1538200210032" expanded="true" signature="1059:1114" ph="{...}" />
                 <marker date="1538200210032" expanded="true" signature="1154:1198" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Constants.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Constants.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <marker date="1538199245934" expanded="true" signature="0:50" ph="/// Helpful constants ... " />
-                <marker date="1538199245934" expanded="true" signature="80:541" ph="{...}" />
-                <marker date="1538199245934" expanded="true" signature="338:391" ph="/// some UI text ... " />
               </folding>
             </state>
           </provider>
@@ -205,8 +175,8 @@
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/AccelerometerInput.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UIManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/PathSpawnCollider.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CharacterSidewaysMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PathSpawnCollider.cs" />
       </list>
     </option>
   </component>
@@ -216,7 +186,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="width" value="697" />
     <option name="height" value="728" />
   </component>
@@ -311,12 +281,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1538199402216</updated>
-      <workItem from="1538199403622" duration="4448000" />
+      <workItem from="1538199403622" duration="5642000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4448000" />
+    <option name="totallyTimeSpent" value="5642000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -328,15 +298,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Errors In Solution" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Unit Tests" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Version Control" weight="0.32838285" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
@@ -371,29 +340,6 @@
             <marker date="1538199245934" expanded="true" signature="0:50" ph="/// Helpful constants ... " />
             <marker date="1538199245934" expanded="true" signature="80:541" ph="{...}" />
             <marker date="1538199245934" expanded="true" signature="338:391" ph="/// some UI text ... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/UIManager.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="9" column="56" selection-start-line="9" selection-start-column="56" selection-end-line="9" selection-end-column="56" />
-          <folding>
-            <marker date="1538200210032" expanded="false" signature="6:66" ph="..." />
-            <marker date="1538200210032" expanded="true" signature="106:1243" ph="{...}" />
-            <marker date="1538200210032" expanded="true" signature="126:195" ph="{...}" />
-            <marker date="1538200210032" expanded="true" signature="217:377" ph="{...}" />
-            <marker date="1538200210032" expanded="true" signature="253:302" ph="{...}" />
-            <marker date="1538200210032" expanded="true" signature="315:371" ph="{...}" />
-            <marker date="1538200210032" expanded="true" signature="485:649" ph="{...}" />
-            <marker date="1538200210032" expanded="true" signature="503:643" ph="{...}" />
-            <marker date="1538200210032" expanded="true" signature="676:688" ph="{...}" />
-            <marker date="1538200210032" expanded="true" signature="749:807" ph="{...}" />
-            <marker date="1538200210032" expanded="true" signature="850:912" ph="{...}" />
-            <marker date="1538200210032" expanded="true" signature="956:1019" ph="{...}" />
-            <marker date="1538200210032" expanded="true" signature="1059:1114" ph="{...}" />
-            <marker date="1538200210032" expanded="true" signature="1154:1198" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -444,10 +390,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/AccelerometerInput.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/PathSpawnCollider.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+          <folding>
+            <marker date="1538203877972" expanded="false" signature="6:44" ph="..." />
+            <marker date="1538203877972" expanded="true" signature="93:1703" ph="{...}" />
+            <marker date="1538203877972" expanded="true" signature="281:1700" ph="{...}" />
+            <marker date="1538203877972" expanded="true" signature="296:382" ph="/* player has hit the collider ... */" />
+            <marker date="1538203877972" expanded="true" signature="405:771" ph="/* find whether the next path will be straight, left or right ... */" />
+            <marker date="1538203877972" expanded="true" signature="869:1671" ph="/* Instantiate(Path, PathSpawnPoints[0].position, PathSpawnPoints[0].rotation); ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/CharacterSidewaysMovement.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="431">
-          <caret line="79" selection-start-line="79" selection-end-line="79" />
+        <state relative-caret-position="105">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
           <folding>
             <marker date="1538203351720" expanded="false" signature="7:102" ph="..." />
             <marker date="1538203351720" expanded="true" signature="158:4527" ph="{...}" />
@@ -472,24 +440,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/AccelerometerInput.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/UIManager.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/PathSpawnCollider.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+        <state relative-caret-position="195">
+          <caret line="54" column="5" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
           <folding>
-            <marker date="1538201682233" expanded="false" signature="6:44" ph="..." />
-            <marker date="1538201682233" expanded="true" signature="93:1699" ph="{...}" />
-            <marker date="1538201682233" expanded="true" signature="281:1696" ph="{...}" />
-            <marker date="1538201682233" expanded="true" signature="296:382" ph="/* player has hit the collider ... */" />
-            <marker date="1538201682233" expanded="true" signature="405:767" ph="/* find whether the next path will be straight, left or right ... */" />
-            <marker date="1538201682233" expanded="true" signature="865:1667" ph="/* Instantiate(Path, PathSpawnPoints[0].position, PathSpawnPoints[0].rotation); ... */" />
+            <marker date="1538200210032" expanded="false" signature="6:66" ph="..." />
+            <marker date="1538200210032" expanded="true" signature="106:1243" ph="{...}" />
+            <marker date="1538200210032" expanded="true" signature="126:195" ph="{...}" />
+            <marker date="1538200210032" expanded="true" signature="217:377" ph="{...}" />
+            <marker date="1538200210032" expanded="true" signature="253:302" ph="{...}" />
+            <marker date="1538200210032" expanded="true" signature="315:371" ph="{...}" />
+            <marker date="1538200210032" expanded="true" signature="485:649" ph="{...}" />
+            <marker date="1538200210032" expanded="true" signature="503:643" ph="{...}" />
+            <marker date="1538200210032" expanded="true" signature="676:688" ph="{...}" />
+            <marker date="1538200210032" expanded="true" signature="749:807" ph="{...}" />
+            <marker date="1538200210032" expanded="true" signature="850:912" ph="{...}" />
+            <marker date="1538200210032" expanded="true" signature="956:1019" ph="{...}" />
+            <marker date="1538200210032" expanded="true" signature="1059:1114" ph="{...}" />
+            <marker date="1538200210032" expanded="true" signature="1154:1198" ph="{...}" />
           </folding>
         </state>
       </provider>
