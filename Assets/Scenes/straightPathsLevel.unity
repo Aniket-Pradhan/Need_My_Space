@@ -1113,7 +1113,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ScoreText: {fileID: 395848526}
   StatusText: {fileID: 967585073}
-  AnxLevel: {fileID: 1220177557}
 --- !u!114 &737401840
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1776,7 +1775,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: Anxiety Level
+  m_text: 'Anxiety: 0'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 715b80e429c437e40867928a4e1fc975, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 715b80e429c437e40867928a4e1fc975, type: 2}
@@ -1844,7 +1843,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 9.539993}
   m_textInfo:
     textComponent: {fileID: 1220177557}
-    characterCount: 13
+    characterCount: 10
     spriteCount: 0
     spaceCount: 1
     wordCount: 2
@@ -2514,7 +2513,7 @@ Prefab:
         type: 2}
     - target: {fileID: 11400034, guid: c024cdd143c954da9a435afc234e08d4, type: 2}
       propertyPath: minX
-      value: -1.2
+      value: -1.1
       objectReference: {fileID: 0}
     - target: {fileID: 11400034, guid: c024cdd143c954da9a435afc234e08d4, type: 2}
       propertyPath: maxX
