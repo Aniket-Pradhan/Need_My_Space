@@ -63,9 +63,14 @@ public class UIManager : MonoBehaviour
     
     private void UpdateScoreText()
     {
-        Debug.Log(ScoreText);
+//        Debug.Log(ScoreText);
         ScoreText.text = score.ToString();
 //        ScoreText.text = score.ToString();
+    }
+
+    public void UpdateAnxiety(float value)
+    {
+        AnxLevel.text = value.ToString();
     }
 
     public void SetStatus(string text)
@@ -73,7 +78,7 @@ public class UIManager : MonoBehaviour
         StatusText.text = text;
     }
 
-    public TextMeshProUGUI ScoreText, StatusText;
+    public TextMeshProUGUI ScoreText, StatusText,AnxLevel;
 //    public TextMeshProUGUI
 
 

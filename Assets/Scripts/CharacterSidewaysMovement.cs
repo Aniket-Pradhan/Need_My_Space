@@ -60,7 +60,7 @@ public class CharacterSidewaysMovement : MonoBehaviour
                 }
                 break;
             case GameState.Playing:
-                UIManager.Instance.IncreaseScore(0.001f);
+//                UIManager.Instance.IncreaseScore(1f);
 
                 CheckHeight();
 
@@ -85,7 +85,7 @@ public class CharacterSidewaysMovement : MonoBehaviour
             
             case GameState.Dead:
                 anim.SetBool(Constants.AnimationStarted, false);
-                if (Input.GetMouseButtonUp(0))
+                if (Input.GetMouseButtonUp(0) || Input.GetKeyDown("a"))
                 {
                     //restart
                     SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
