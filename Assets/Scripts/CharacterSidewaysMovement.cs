@@ -15,7 +15,7 @@ public class CharacterSidewaysMovement : MonoBehaviour
     private bool isChangingLane = false;
     private Vector3 locationAfterChangingLane;
     //distance character will move sideways
-    private Vector3 sidewaysMovementDistance = Vector3.right * 2f;
+    private Vector3 sidewaysMovementDistance = Vector3.right * 1f;
 
     public float SideWaysSpeed = 5.0f;
 
