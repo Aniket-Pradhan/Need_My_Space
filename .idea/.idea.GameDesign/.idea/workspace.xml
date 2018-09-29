@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e39786c7-667b-42b3-9f92-09b8a2661655" name="Default" comment="" />
+    <list default="true" id="e39786c7-667b-42b3-9f92-09b8a2661655" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/Library/EditorUserBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/EditorUserBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/assetDatabase3" beforeDir="false" afterPath="$PROJECT_DIR$/Library/assetDatabase3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/00/00000000000000006100000000000000" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/00/00000000000000006100000000000000" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,37 +16,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Constants.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Constants.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="61" selection-start-line="6" selection-start-column="61" selection-end-line="6" selection-end-column="61" />
-              <folding>
-                <marker date="1538225867071" expanded="true" signature="0:50" ph="/// Helpful constants ... " />
-                <marker date="1538225867071" expanded="true" signature="80:541" ph="{...}" />
-                <marker date="1538225867071" expanded="true" signature="338:391" ph="/// some UI text ... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PathSpawnCollider.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/PathSpawnCollider.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="41" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
-              <folding>
-                <marker date="1538219747527" expanded="true" signature="6:44" ph="..." />
-                <marker date="1538219747527" expanded="true" signature="93:1703" ph="{...}" />
-                <marker date="1538219747527" expanded="true" signature="281:1700" ph="{...}" />
-                <marker date="1538219747527" expanded="true" signature="296:382" ph="/* player has hit the collider ... */" />
-                <marker date="1538219747527" expanded="true" signature="405:771" ph="/* find whether the next path will be straight, left or right ... */" />
-                <marker date="1538219747527" expanded="true" signature="869:1671" ph="/* Instantiate(Path, PathSpawnPoints[0].position, PathSpawnPoints[0].rotation); ... */" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="RandomMaterial.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/RandomMaterial.cs">
           <provider selected="true" editor-type-id="text-editor">
@@ -126,7 +100,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AudioManager.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AudioManager.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/AudioManager.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
@@ -141,6 +115,23 @@
                 <marker date="1538227016692" expanded="true" signature="560:583" ph="{...}" />
                 <marker date="1538227016692" expanded="true" signature="615:1011" ph="{...}" />
                 <marker date="1538227016692" expanded="true" signature="695:769" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PathSpawnCollider.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/PathSpawnCollider.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
+              <folding>
+                <marker date="1538219747527" expanded="false" signature="6:44" ph="..." />
+                <marker date="1538219747527" expanded="true" signature="93:1703" ph="{...}" />
+                <marker date="1538219747527" expanded="true" signature="281:1700" ph="{...}" />
+                <marker date="1538219747527" expanded="true" signature="296:382" ph="/* player has hit the collider ... */" />
+                <marker date="1538219747527" expanded="true" signature="405:771" ph="/* find whether the next path will be straight, left or right ... */" />
+                <marker date="1538219747527" expanded="true" signature="869:1671" ph="/* Instantiate(Path, PathSpawnPoints[0].position, PathSpawnPoints[0].rotation); ... */" />
               </folding>
             </state>
           </provider>
@@ -265,7 +256,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12698000" />
+    <option name="totallyTimeSpent" value="13079000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -476,21 +467,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/PathSpawnCollider.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="41" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
-          <folding>
-            <marker date="1538219747527" expanded="true" signature="6:44" ph="..." />
-            <marker date="1538219747527" expanded="true" signature="93:1703" ph="{...}" />
-            <marker date="1538219747527" expanded="true" signature="281:1700" ph="{...}" />
-            <marker date="1538219747527" expanded="true" signature="296:382" ph="/* player has hit the collider ... */" />
-            <marker date="1538219747527" expanded="true" signature="405:771" ph="/* find whether the next path will be straight, left or right ... */" />
-            <marker date="1538219747527" expanded="true" signature="869:1671" ph="/* Instantiate(Path, PathSpawnPoints[0].position, PathSpawnPoints[0].rotation); ... */" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/CharacterSidewaysMovement.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -555,6 +531,21 @@
             <marker date="1538227016692" expanded="true" signature="560:583" ph="{...}" />
             <marker date="1538227016692" expanded="true" signature="615:1011" ph="{...}" />
             <marker date="1538227016692" expanded="true" signature="695:769" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/PathSpawnCollider.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
+          <folding>
+            <marker date="1538219747527" expanded="false" signature="6:44" ph="..." />
+            <marker date="1538219747527" expanded="true" signature="93:1703" ph="{...}" />
+            <marker date="1538219747527" expanded="true" signature="281:1700" ph="{...}" />
+            <marker date="1538219747527" expanded="true" signature="296:382" ph="/* player has hit the collider ... */" />
+            <marker date="1538219747527" expanded="true" signature="405:771" ph="/* find whether the next path will be straight, left or right ... */" />
+            <marker date="1538219747527" expanded="true" signature="869:1671" ph="/* Instantiate(Path, PathSpawnPoints[0].position, PathSpawnPoints[0].rotation); ... */" />
           </folding>
         </state>
       </provider>
