@@ -26,8 +26,8 @@ public class StuffSpawner : MonoBehaviour
             //select a random spawn point, apart from the first one
             //since we do not want an obstacle there
             obstacleIndex = Random.Range(1, StuffSpawnPoints.Length);
-
-            CreateObject(StuffSpawnPoints[obstacleIndex].position, Obstacles[Random.Range(0, Obstacles.Length)]);
+            Vector3 v = new Vector3(StuffSpawnPoints[obstacleIndex].position.x, 1f, StuffSpawnPoints[obstacleIndex].position.z);
+            CreateObject(v, Obstacles[Random.Range(0, Obstacles.Length)]);
         }
 
 
@@ -37,7 +37,8 @@ public class StuffSpawner : MonoBehaviour
             if (i == obstacleIndex) continue;
             if (Random.Range(0, 3) == 0) //33% chances to create candy
             {
-                CreateObject(StuffSpawnPoints[i].position, Bonus[Random.Range(0, Bonus.Length)]);
+                Vector3 v = new Vector3(StuffSpawnPoints[i].position.x, 1f, StuffSpawnPoints[i].position.z);
+                CreateObject(v, Bonus[Random.Range(0, Bonus.Length)]);
             }
         }
 
