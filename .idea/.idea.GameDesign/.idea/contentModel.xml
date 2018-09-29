@@ -7,6 +7,7 @@
       <e p="Assets\AudioManager.cs" t="Include" />
       <e p="Assets\Scripts" t="Include">
         <e p="BuildingsSpawner.cs" t="Include" />
+        <e p="BushSpawner.cs" t="Include" />
         <e p="Candy.cs" t="Include" />
         <e p="CharacterRotateMovement.cs" t="Include" />
         <e p="CharacterSidewaysMovement.cs" t="Include" />
