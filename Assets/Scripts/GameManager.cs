@@ -68,6 +68,7 @@ public class GameManager : MonoBehaviour
     {
         float val = circle.transform.localScale.x;
         circle.transform.localScale = new Vector3(val-value,val-value,val-value);	
+        UIManager.Instance.UpdateAnxiety(1/value);
     }
 
 }
