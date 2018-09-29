@@ -1952,6 +1952,15 @@ MonoBehaviour:
     loop: 1
     mixerGroup: {fileID: 0}
     source: {fileID: 0}
+  - name: PageTurn
+    clip: {fileID: 8300000, guid: 7b6d1788323696947b329e89eeba13fd, type: 3}
+    volume: 0.804
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
 --- !u!4 &1679855858
 Transform:
   m_ObjectHideFlags: 0

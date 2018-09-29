@@ -14,6 +14,7 @@ public class Candy : MonoBehaviour
 
     void OnTriggerEnter(Collider col)
     {
+        FindObjectOfType<AudioManager>().Play("PageTurn");
         UIManager.Instance.IncreaseScore(ScorePoints);
         Destroy(this.gameObject);
     }
