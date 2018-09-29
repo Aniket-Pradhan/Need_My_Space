@@ -6,6 +6,7 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
+    public GameObject circle;
     void Awake()
     {
         if (instance == null)
@@ -44,8 +45,29 @@ public class GameManager : MonoBehaviour
     
     public void Die()
     {
+//            UIManager.Instance.SetStatus(Constants.StatusDeadTapToStart);
+//            this.GameState = GameState.Dead; 
+        if (getCircle() - 0.2f > 0.2f)
+        {
+            decCircle(0.2f);
+        }
+        else
+        {
+            decCircle(0.2f);
             UIManager.Instance.SetStatus(Constants.StatusDeadTapToStart);
-            this.GameState = GameState.Dead; 
+            this.GameState = GameState.Dead;             
+        }
+    }
+    
+    public float getCircle()
+    {
+        return circle.transform.localScale.x;
+    }
+
+    public void decCircle(float value)
+    {
+        float val = circle.transform.localScale.x;
+        circle.transform.localScale = new Vector3(val-value,val-value,val-value);	
     }
 
 }
