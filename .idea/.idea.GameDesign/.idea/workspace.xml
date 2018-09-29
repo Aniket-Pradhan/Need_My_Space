@@ -43,18 +43,86 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="RandomMaterial.cs" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/RandomMaterial.cs">
+      <file leaf-file-name="StuffSpawner.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/StuffSpawner.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="18" column="46" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
+            <state relative-caret-position="459">
+              <caret line="33" column="57" selection-start-line="33" selection-start-column="57" selection-end-line="33" selection-end-column="57" />
               <folding>
-                <marker date="1538198046314" expanded="false" signature="6:44" ph="..." />
-                <marker date="1538198046314" expanded="true" signature="90:1105" ph="{...}" />
-                <marker date="1538198046314" expanded="true" signature="140:212" ph="{...}" />
-                <marker date="1538198046314" expanded="true" signature="221:325" ph="/// helper method to get a random color ... " />
-                <marker date="1538198046314" expanded="true" signature="365:1102" ph="{...}" />
-                <marker date="1538198046314" expanded="true" signature="461:1096" ph="/* int x = Random.Range(0, 5); ... */" />
+                <marker date="1538204425502" expanded="true" signature="6:44" ph="..." />
+                <marker date="1538204425502" expanded="true" signature="87:1765" ph="{...}" />
+                <marker date="1538204425502" expanded="true" signature="412:1487" ph="{...}" />
+                <marker date="1538204425502" expanded="true" signature="427:648" ph="/* first, let's decide whether we'll place an obstacle ... */" />
+                <marker date="1538204425502" expanded="true" signature="775:1101" ph="{...}" />
+                <marker date="1538204425502" expanded="true" signature="798:906" ph="/* select a random spawn point, apart from the first one ... */" />
+                <marker date="1538204425502" expanded="true" signature="1161:1479" ph="{...}" />
+                <marker date="1538204425502" expanded="true" signature="1343:1469" ph="{...}" />
+                <marker date="1538204425502" expanded="true" signature="1547:1761" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Obstacle.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Obstacle.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+              <folding>
+                <marker date="1538204425496" expanded="true" signature="6:66" ph="..." />
+                <marker date="1538204425496" expanded="true" signature="106:421" ph="{...}" />
+                <marker date="1538204425496" expanded="true" signature="235:419" ph="{...}" />
+                <marker date="1538204425496" expanded="true" signature="363:413" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IntroLevel.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/IntroLevel.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <marker date="1538197526563" expanded="false" signature="6:79" ph="..." />
+                <marker date="1538197526563" expanded="true" signature="121:327" ph="{...}" />
+                <marker date="1538197526563" expanded="true" signature="157:223" ph="{...}" />
+                <marker date="1538197526563" expanded="true" signature="260:325" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CharacterSidewaysMovement.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/CharacterSidewaysMovement.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="114" column="16" selection-start-line="114" selection-start-column="16" selection-end-line="114" selection-end-column="16" />
+              <folding>
+                <marker date="1538204441658" expanded="false" signature="7:102" ph="..." />
+                <marker date="1538204441658" expanded="true" signature="158:4527" ph="{...}" />
+                <marker date="1538204441658" expanded="true" signature="776:1266" ph="{...}" />
+                <marker date="1538204441658" expanded="true" signature="3633:3642" ph="{...}" />
+                <marker date="1538204441658" expanded="true" signature="3633:4242" ph="{...}" />
+                <marker date="1538204441658" expanded="true" signature="3725:4234" ph="{...}" />
+                <marker date="1538204441658" expanded="true" signature="3826:3995" ph="{...}" />
+                <marker date="1538204441658" expanded="true" signature="4056:4224" ph="{...}" />
+                <marker date="1538204441658" expanded="true" signature="4310:4518" ph="{...}" />
+                <marker date="1538204441658" expanded="true" signature="4423:4512" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Candy.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Candy.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <marker date="1538197526499" expanded="false" signature="6:66" ph="..." />
+                <marker date="1538197526499" expanded="true" signature="102:531" ph="{...}" />
+                <marker date="1538197526499" expanded="true" signature="109:220" ph="/* candy found in https://www.assetstore.unity3d.com/en/##!/content/12512 ... */" />
+                <marker date="1538197526499" expanded="true" signature="238:318" ph="{...}" />
+                <marker date="1538197526499" expanded="true" signature="357:458" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -66,7 +134,17 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Obstacle.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/RandomMaterial.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CharacterSidewaysMovement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/SwipeCollider.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PathSpawnCollider.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Constants.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Candy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/RedBorder.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/StuffSpawner.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/IntroLevel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -103,6 +181,11 @@
             <path>
               <item name="" type="ad4990d8:FileSystemViewPaneBase$ProjectViewPaneTreeStructure$createRoot$1" />
               <item name="GameDesign" type="483dac07:UnityExplorerNode$Root" />
+            </path>
+            <path>
+              <item name="" type="ad4990d8:FileSystemViewPaneBase$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="GameDesign" type="483dac07:UnityExplorerNode$Root" />
+              <item name="" type="1045f7f1:UnityExplorerNode" />
             </path>
           </expand>
           <select />
@@ -164,7 +247,7 @@
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Errors In Solution" />
+      <window_info anchor="right" id="Errors In Solution" weight="0.32980332" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Unit Tests" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
@@ -186,6 +269,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="6" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -196,6 +280,163 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Constants.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1538197526513" expanded="true" signature="0:50" ph="/// Helpful constants ... " />
+            <marker date="1538197526513" expanded="true" signature="80:541" ph="{...}" />
+            <marker date="1538197526513" expanded="true" signature="338:391" ph="/// some UI text ... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/SwipeCollider.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1538197526596" expanded="false" signature="6:44" ph="..." />
+            <marker date="1538197526596" expanded="true" signature="88:439" ph="{...}" />
+            <marker date="1538197526596" expanded="true" signature="164:281" ph="{...}" />
+            <marker date="1538197526596" expanded="true" signature="319:437" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/RandomMaterial.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+          <folding>
+            <marker date="1538198046314" expanded="false" signature="6:44" ph="..." />
+            <marker date="1538198046314" expanded="true" signature="90:1105" ph="{...}" />
+            <marker date="1538198046314" expanded="true" signature="140:212" ph="{...}" />
+            <marker date="1538198046314" expanded="true" signature="221:325" ph="/// helper method to get a random color ... " />
+            <marker date="1538198046314" expanded="true" signature="365:1102" ph="{...}" />
+            <marker date="1538198046314" expanded="true" signature="461:1096" ph="/* int x = Random.Range(0, 5); ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/RedBorder.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1538197526586" expanded="false" signature="6:44" ph="..." />
+            <marker date="1538197526586" expanded="true" signature="84:269" ph="{...}" />
+            <marker date="1538197526586" expanded="true" signature="160:267" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/IntroLevel.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1538197526563" expanded="false" signature="6:79" ph="..." />
+            <marker date="1538197526563" expanded="true" signature="121:327" ph="{...}" />
+            <marker date="1538197526563" expanded="true" signature="157:223" ph="{...}" />
+            <marker date="1538197526563" expanded="true" signature="260:325" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-377">
+          <folding>
+            <marker date="1538197526518" expanded="false" signature="6:104" ph="..." />
+            <marker date="1538197526518" expanded="true" signature="146:944" ph="{...}" />
+            <marker date="1538197526518" expanded="true" signature="165:325" ph="{...}" />
+            <marker date="1538197526518" expanded="true" signature="201:250" ph="{...}" />
+            <marker date="1538197526518" expanded="true" signature="263:319" ph="{...}" />
+            <marker date="1538197526518" expanded="true" signature="411:592" ph="{...}" />
+            <marker date="1538197526518" expanded="true" signature="429:586" ph="{...}" />
+            <marker date="1538197526518" expanded="true" signature="473:547" ph="{...}" />
+            <marker date="1538197526518" expanded="true" signature="621:696" ph="{...}" />
+            <marker date="1538197526518" expanded="true" signature="809:941" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/CharacterSidewaysMovement.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="114" column="16" selection-start-line="114" selection-start-column="16" selection-end-line="114" selection-end-column="16" />
+          <folding>
+            <marker date="1538204441658" expanded="false" signature="7:102" ph="..." />
+            <marker date="1538204441658" expanded="true" signature="158:4527" ph="{...}" />
+            <marker date="1538204441658" expanded="true" signature="776:1266" ph="{...}" />
+            <marker date="1538204441658" expanded="true" signature="3633:3642" ph="{...}" />
+            <marker date="1538204441658" expanded="true" signature="3633:4242" ph="{...}" />
+            <marker date="1538204441658" expanded="true" signature="3725:4234" ph="{...}" />
+            <marker date="1538204441658" expanded="true" signature="3826:3995" ph="{...}" />
+            <marker date="1538204441658" expanded="true" signature="4056:4224" ph="{...}" />
+            <marker date="1538204441658" expanded="true" signature="4310:4518" ph="{...}" />
+            <marker date="1538204441658" expanded="true" signature="4423:4512" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Candy.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1538197526499" expanded="false" signature="6:66" ph="..." />
+            <marker date="1538197526499" expanded="true" signature="102:531" ph="{...}" />
+            <marker date="1538197526499" expanded="true" signature="109:220" ph="/* candy found in https://www.assetstore.unity3d.com/en/##!/content/12512 ... */" />
+            <marker date="1538197526499" expanded="true" signature="238:318" ph="{...}" />
+            <marker date="1538197526499" expanded="true" signature="357:458" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/PathSpawnCollider.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="16" column="54" selection-start-line="16" selection-start-column="54" selection-end-line="16" selection-end-column="54" />
+          <folding>
+            <marker date="1538204441668" expanded="false" signature="6:44" ph="..." />
+            <marker date="1538204441668" expanded="true" signature="93:1703" ph="{...}" />
+            <marker date="1538204441668" expanded="true" signature="1658:1700" ph="{...}" />
+            <marker date="1538204441668" expanded="true" signature="1658:1694" ph="{...}" />
+            <marker date="1538204441668" expanded="true" signature="1658:1671" ph="{...}" />
+            <marker date="1538204441668" expanded="true" signature="836:1268" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Obstacle.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+          <folding>
+            <marker date="1538204425496" expanded="true" signature="6:66" ph="..." />
+            <marker date="1538204425496" expanded="true" signature="106:421" ph="{...}" />
+            <marker date="1538204425496" expanded="true" signature="235:419" ph="{...}" />
+            <marker date="1538204425496" expanded="true" signature="363:413" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/StuffSpawner.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="33" column="57" selection-start-line="33" selection-start-column="57" selection-end-line="33" selection-end-column="57" />
+          <folding>
+            <marker date="1538204425502" expanded="true" signature="6:44" ph="..." />
+            <marker date="1538204425502" expanded="true" signature="87:1765" ph="{...}" />
+            <marker date="1538204425502" expanded="true" signature="412:1487" ph="{...}" />
+            <marker date="1538204425502" expanded="true" signature="427:648" ph="/* first, let's decide whether we'll place an obstacle ... */" />
+            <marker date="1538204425502" expanded="true" signature="775:1101" ph="{...}" />
+            <marker date="1538204425502" expanded="true" signature="798:906" ph="/* select a random spawn point, apart from the first one ... */" />
+            <marker date="1538204425502" expanded="true" signature="1161:1479" ph="{...}" />
+            <marker date="1538204425502" expanded="true" signature="1343:1469" ph="{...}" />
+            <marker date="1538204425502" expanded="true" signature="1547:1761" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/RandomMaterial.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
