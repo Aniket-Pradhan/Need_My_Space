@@ -5,12 +5,12 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/introLevel.unity
-    guid: 00000000000000000000000000000000
-  - enabled: 1
+    guid: d9d4a4fbbf204db4e97a95d6320b8523
+  - enabled: 0
     path: Assets/Scenes/rotatedPathsLevel.unity
-    guid: 00000000000000000000000000000000
+    guid: ee73cf4f3461af2488e33f22fe0e0e3c
   - enabled: 1
     path: Assets/Scenes/straightPathsLevel.unity
-    guid: 00000000000000000000000000000000
+    guid: 04c04415dccd44affa142385ff66b497

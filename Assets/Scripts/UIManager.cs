@@ -5,6 +5,11 @@ using UnityEngine.UI;
 public class UIManager : MonoBehaviour
 {
 
+    void Start()
+    {
+        Screen.orientation = ScreenOrientation.Portrait;
+    }
+    
     void Awake()
     {
         if (instance == null)

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\Chirag Jain\.Rider2018.1\system\resharper-host\Local\Transient\ReSharperHost\v12\SolutionCaches\_NewGame.-850320005.00" t="ExcludeRecursive" />
+    <e p="E:\NewGame" t="IncludeRecursive">
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets\Scripts" t="Include">
+        <e p="Candy.cs" t="Include" />
+        <e p="CharacterRotateMovement.cs" t="Include" />
+        <e p="CharacterSidewaysMovement.cs" t="Include" />
+        <e p="Constants.cs" t="Include" />
+        <e p="GameManager.cs" t="Include" />
+        <e p="GameState.cs" t="Include" />
+        <e p="Input" t="Include">
+          <e p="ArrowKeysDetector.cs" t="Include" />
+          <e p="IInputDetector.cs" t="Include" />
+          <e p="SwipeDetector.cs" t="Include" />
+        </e>
+        <e p="IntroLevel.cs" t="Include" />
+        <e p="Obstacle.cs" t="Include" />
+        <e p="PathSpawnCollider.cs" t="Include" />
+        <e p="RandomMaterial.cs" t="Include" />
+        <e p="RedBorder.cs" t="Include" />
+        <e p="StuffSpawner.cs" t="Include" />
+        <e p="SwipeCollider.cs" t="Include" />
+        <e p="TimeDestroyer.cs" t="Include" />
+        <e p="UIManager.cs" t="Include" />
+      </e>
+      <e p="Library" t="ExcludeRecursive" />
+      <e p="NewGame.sln" t="IncludeFlat" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Temp" t="ExcludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+      </e>
+    </e>
+  </component>
+</project>

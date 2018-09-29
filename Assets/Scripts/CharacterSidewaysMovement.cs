@@ -41,6 +41,7 @@ public class CharacterSidewaysMovement : MonoBehaviour
         anim = CharacterGO.GetComponent<Animator>();
         inputDetector = GetComponent<IInputDetector>();
         controller = GetComponent<CharacterController>();
+        moveDirection.y -= gravity * Time.deltaTime;
     }
 
     // Update is called once per frame
@@ -49,7 +50,7 @@ public class CharacterSidewaysMovement : MonoBehaviour
         switch (GameManager.Instance.GameState)
         {
             case GameState.Start:
-                if (Input.GetMouseButtonUp(0))
+                if (Input.GetMouseButtonUp(0) || Input.GetKeyDown("a")) 
                 {
                     anim.SetBool(Constants.AnimationStarted, true);
                     var instance = GameManager.Instance;
@@ -66,7 +67,7 @@ public class CharacterSidewaysMovement : MonoBehaviour
                 DetectJumpOrSwipeLeftRight();
 
                 //apply gravity
-                moveDirection.y -= gravity * Time.deltaTime;
+//                moveDirection.y -= gravity * Time.deltaTime;
 
                 if (isChangingLane)
                 {
@@ -79,8 +80,9 @@ public class CharacterSidewaysMovement : MonoBehaviour
 
                 //move the player
                 controller.Move(moveDirection * Time.deltaTime);
-
+                transform.Translate(Input.acceleration.x*1.5f, 0, 0);
                 break;
+            
             case GameState.Dead:
                 anim.SetBool(Constants.AnimationStarted, false);
                 if (Input.GetMouseButtonUp(0))
@@ -106,16 +108,16 @@ public class CharacterSidewaysMovement : MonoBehaviour
     private void DetectJumpOrSwipeLeftRight()
     {
         var inputDirection = inputDetector.DetectInputDirection();
-        if (controller.isGrounded && inputDirection.HasValue && inputDirection == InputDirection.Top
-            && !isChangingLane)
-        {
-            moveDirection.y = JumpSpeed;
-            anim.SetBool(Constants.AnimationJump, true);
-        }
-        else
-        {
+//        if (controller.isGrounded && inputDirection.HasValue && inputDirection == InputDirection.Top
+//            && !isChangingLane)
+//        {
+//            moveDirection.y = JumpSpeed;
+//            anim.SetBool(Constants.AnimationJump, true);
+//        }
+//        else
+//        {
             anim.SetBool(Constants.AnimationJump, false);
-        }
+//        }
 
 
         if (controller.isGrounded && inputDirection.HasValue && !isChangingLane)
