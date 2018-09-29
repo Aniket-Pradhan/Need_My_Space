@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e39786c7-667b-42b3-9f92-09b8a2661655" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.GameDesign/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GameDesign/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/assetDatabase3" beforeDir="false" afterPath="$PROJECT_DIR$/Library/assetDatabase3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe0.log" afterDir="false" />
-    </list>
+    <list default="true" id="e39786c7-667b-42b3-9f92-09b8a2661655" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -134,7 +130,7 @@
         <entry file="file://$PROJECT_DIR$/Assets/AudioManager.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
-              <caret line="38" column="5" lean-forward="true" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+              <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
               <folding>
                 <marker date="1538227016692" expanded="false" signature="6:57" ph="..." />
                 <marker date="1538227016692" expanded="true" signature="100:1014" ph="{...}" />
@@ -269,7 +265,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12443000" />
+    <option name="totallyTimeSpent" value="12698000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -548,7 +544,7 @@
     <entry file="file://$PROJECT_DIR$/Assets/AudioManager.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
-          <caret line="38" column="5" lean-forward="true" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+          <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
           <folding>
             <marker date="1538227016692" expanded="false" signature="6:57" ph="..." />
             <marker date="1538227016692" expanded="true" signature="100:1014" ph="{...}" />

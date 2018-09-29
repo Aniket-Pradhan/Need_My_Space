@@ -4,6 +4,7 @@
     <e p="C:\Users\anike\.Rider2018.1\system\resharper-host\Local\Transient\ReSharperHost\v12\SolutionCaches\_GameDesign.-79937318.00" t="ExcludeRecursive" />
     <e p="C:\Users\anike\Documents\GitHub\GameDesign" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets\AudioManager.cs" t="Include" />
       <e p="Assets\Scripts" t="Include">
         <e p="Candy.cs" t="Include" />
         <e p="CharacterRotateMovement.cs" t="Include" />
@@ -26,6 +27,7 @@
         <e p="TimeDestroyer.cs" t="Include" />
         <e p="UIManager.cs" t="Include" />
       </e>
+      <e p="Assets\Sound.cs" t="Include" />
       <e p="Assets\TextMesh Pro" t="Include">
         <e p="Examples &amp; Extras" t="Include">
           <e p="Fonts" t="Include">
