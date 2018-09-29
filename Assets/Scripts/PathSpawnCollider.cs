@@ -7,7 +7,8 @@ public class PathSpawnCollider : MonoBehaviour {
     public Transform[] PathSpawnPoints;
     public GameObject Path;
     public GameObject DangerousBorder;
-
+    public Vector3 SpawnLocation = new Vector3();
+    
     void OnTriggerEnter(Collider hit)
     {
         //player has hit the collider
@@ -19,7 +20,12 @@ public class PathSpawnCollider : MonoBehaviour {
             {
                 //instantiate the path, on the set rotation
                 if (i == randomSpawnPoint)
+                {
                     Instantiate(Path, PathSpawnPoints[i].position, PathSpawnPoints[i].rotation);
+                    SpawnLocation = PathSpawnPoints[i].position;
+                    GameManager.Instance.CanSwipe = true;
+                }
+
                 else
                 {
                     //instantiate the border, but rotate it 90 degrees first

@@ -18,9 +18,11 @@ public class CharacterRotateMovement : MonoBehaviour
 
     bool isInSwipeArea;
 
-
     IInputDetector inputDetector = null;
 
+    
+    
+    
     // Use this for initialization
     void Start()
     {
@@ -103,7 +105,7 @@ public class CharacterRotateMovement : MonoBehaviour
 
 
         if (GameManager.Instance.CanSwipe && inputDirection.HasValue &&
-         controller.isGrounded && inputDirection == InputDirection.Right)
+         controller.isGrounded && (inputDirection == InputDirection.Right || SwipeManager.IsSwipingRight()))
         {
             transform.Rotate(0, 90, 0);
             moveDirection = Quaternion.AngleAxis(90, Vector3.up) * moveDirection;
@@ -111,18 +113,11 @@ public class CharacterRotateMovement : MonoBehaviour
             GameManager.Instance.CanSwipe = false;
         }
         else if (GameManager.Instance.CanSwipe && inputDirection.HasValue &&
-         controller.isGrounded && inputDirection == InputDirection.Left)
+         controller.isGrounded && (inputDirection == InputDirection.Left || SwipeManager.IsSwipingLeft()))
         {
             transform.Rotate(0, -90, 0);
             moveDirection = Quaternion.AngleAxis(-90, Vector3.up) * moveDirection;
             GameManager.Instance.CanSwipe = false;
         }
-
-
     }
-
-
-
-
-
 }
