@@ -40,7 +40,7 @@ public class UIManager : MonoBehaviour
     {
     }
 
-    private float score = 0;
+    private float score = 0,anscore=0;
 
 
     public void ResetScore()
@@ -56,21 +56,27 @@ public class UIManager : MonoBehaviour
     }
 
     public void IncreaseScore(float value)
+         {
+             score += value;
+             UpdateScoreText();
+         }
+
+    public void IncreaseAnScore(float value)
     {
-        score += value;
-        UpdateScoreText();
+        anscore += value;
+        UpdateAnxiety();
     }
     
     private void UpdateScoreText()
     {
 //        Debug.Log(ScoreText);
-        ScoreText.text = score.ToString();
+        ScoreText.text = "Score: "+ score.ToString();
 //        ScoreText.text = score.ToString();
     }
 
-    public void UpdateAnxiety(float value)
+    public void UpdateAnxiety()
     {
-        AnxLevel.text = value.ToString();
+        AnxLevel.text = "Anxiety: "+anscore.ToString();
     }
 
     public void SetStatus(string text)
