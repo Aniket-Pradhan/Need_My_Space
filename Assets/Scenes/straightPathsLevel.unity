@@ -709,6 +709,10 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!4 &1429625459 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400064, guid: c024cdd143c954da9a435afc234e08d4, type: 2}
+  m_PrefabInternal: {fileID: 1705546581}
 --- !u!1001 &1705546581
 Prefab:
   m_ObjectHideFlags: 0
@@ -719,6 +723,10 @@ Prefab:
     - target: {fileID: 11400034, guid: c024cdd143c954da9a435afc234e08d4, type: 2}
       propertyPath: Obstacles.Array.size
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400034, guid: c024cdd143c954da9a435afc234e08d4, type: 2}
+      propertyPath: StuffSpawnPoints.Array.size
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 400010, guid: c024cdd143c954da9a435afc234e08d4, type: 2}
       propertyPath: m_LocalPosition.x
@@ -841,6 +849,30 @@ Prefab:
       propertyPath: m_LocalPosition.x
       value: 5.24
       objectReference: {fileID: 0}
+    - target: {fileID: 11400034, guid: c024cdd143c954da9a435afc234e08d4, type: 2}
+      propertyPath: StuffSpawnPoints.Array.data[3]
+      value: 
+      objectReference: {fileID: 1429625459}
+    - target: {fileID: 11400034, guid: c024cdd143c954da9a435afc234e08d4, type: 2}
+      propertyPath: Bonus.Array.data[0]
+      value: 
+      objectReference: {fileID: 1523932130504270, guid: f670e5001ba6fcb4da01df783e279e71,
+        type: 2}
+    - target: {fileID: 11400034, guid: c024cdd143c954da9a435afc234e08d4, type: 2}
+      propertyPath: Bonus.Array.data[1]
+      value: 
+      objectReference: {fileID: 1523932130504270, guid: f670e5001ba6fcb4da01df783e279e71,
+        type: 2}
+    - target: {fileID: 11400034, guid: c024cdd143c954da9a435afc234e08d4, type: 2}
+      propertyPath: Bonus.Array.data[2]
+      value: 
+      objectReference: {fileID: 1523932130504270, guid: f670e5001ba6fcb4da01df783e279e71,
+        type: 2}
+    - target: {fileID: 11400034, guid: c024cdd143c954da9a435afc234e08d4, type: 2}
+      propertyPath: Bonus.Array.data[3]
+      value: 
+      objectReference: {fileID: 1523932130504270, guid: f670e5001ba6fcb4da01df783e279e71,
+        type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c024cdd143c954da9a435afc234e08d4, type: 2}
   m_IsPrefabParent: 0
