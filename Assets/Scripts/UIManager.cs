@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using TMPro;
 using UnityEngine.UI;
 
 public class UIManager : MonoBehaviour
@@ -62,7 +63,9 @@ public class UIManager : MonoBehaviour
     
     private void UpdateScoreText()
     {
+        Debug.Log(ScoreText);
         ScoreText.text = score.ToString();
+//        ScoreText.text = score.ToString();
     }
 
     public void SetStatus(string text)
@@ -70,8 +73,8 @@ public class UIManager : MonoBehaviour
         StatusText.text = text;
     }
 
-    public Text ScoreText, StatusText;
-
+    public TextMeshProUGUI ScoreText, StatusText;
+//    public TextMeshProUGUI
 
 
 }
