@@ -94,6 +94,11 @@ public class CharacterSidewaysMovement : MonoBehaviour
             default:
                 break;
         }
+        
+        if (moveDirection.z > 6f)
+        {
+            moveDirection = moveDirection - new Vector3(0, 0, 0.01f);
+        }
 
     }
 
@@ -116,7 +121,7 @@ public class CharacterSidewaysMovement : MonoBehaviour
 //        }
 //        else
 //        {
-//            anim.SetBool(Constants.AnimationJump, false);
+            anim.SetBool(Constants.AnimationJump, false);
 //        }
 
 
@@ -151,7 +156,15 @@ public class CharacterSidewaysMovement : MonoBehaviour
 
     public void incSpeed(float val)
     {
-        moveDirection *= val;
+        if (moveDirection.z < 15f)
+        {
+            moveDirection *= val;               
+        }
+        else
+        {
+            // Do nothing
+        }
+
     }
 
     

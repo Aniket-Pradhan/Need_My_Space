@@ -60,7 +60,7 @@ public class StuffSpawner : MonoBehaviour
         {
             //don't instantiate if there's an obstacle
             if (i == obstacleIndex) continue;
-            if (Random.Range(0, 5) == 0) //1/20% chances to create candy
+            if (Random.Range(0, 20) == 0) //1/20% chances to create candy
             {
                 if (!indecis.Contains(i))
                 {

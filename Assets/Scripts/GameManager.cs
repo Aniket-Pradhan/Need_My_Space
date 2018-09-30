@@ -19,7 +19,6 @@ public class GameManager : MonoBehaviour
             DestroyImmediate(this);
         }
     }
-    
 
     private static GameManager instance;
     public static GameManager Instance
@@ -63,7 +62,7 @@ public class GameManager : MonoBehaviour
 
     public void bonus1()
     {
-        incCircle(1f);
+        incCircle(0.5f);
     }
 
     public void bonus2()
@@ -87,9 +86,17 @@ public class GameManager : MonoBehaviour
     public void incCircle(float value)
     {
         float val = circle.transform.localScale.x;
-        circle.transform.localScale = new Vector3(val+value,val+value,val+value);
-        Debug.Log(1/value);
-        UIManager.Instance.IncreaseAnScore(value * 20);
+        if (val < 2f)
+        {
+            circle.transform.localScale = new Vector3(val+value,val+value,val+value);
+            Debug.Log(1/value);
+            UIManager.Instance.IncreaseAnScore(value * 20);            
+        }
+        else
+        {
+               // Do nothing
+        }
+
     }
 
 }

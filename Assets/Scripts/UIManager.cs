@@ -70,7 +70,7 @@ public class UIManager : MonoBehaviour
     private void UpdateScoreText()
     {
 //        Debug.Log(ScoreText);
-        ScoreText.text = "Score: "+ score.ToString();
+        ScoreText.text = "Calmness: "+ score.ToString();
 //        ScoreText.text = score.ToString();
     }
 
