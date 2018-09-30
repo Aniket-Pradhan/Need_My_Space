@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e39786c7-667b-42b3-9f92-09b8a2661655" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.GameDesign/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GameDesign/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Candy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Candy.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CharacterSidewaysMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CharacterSidewaysMovement.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/StuffSpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/StuffSpawner.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/assetDatabase3" beforeDir="false" afterPath="$PROJECT_DIR$/Library/assetDatabase3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/expandedItems" beforeDir="false" afterPath="$PROJECT_DIR$/Library/expandedItems" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe0.log" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -39,27 +33,27 @@
       <file leaf-file-name="GameManager.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameManager.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="473">
-              <caret line="70" column="66" selection-start-line="70" selection-start-column="66" selection-end-line="70" selection-end-column="66" />
+            <state relative-caret-position="249">
+              <caret line="50" column="36" selection-start-line="50" selection-start-column="36" selection-end-line="50" selection-end-column="36" />
               <folding>
-                <marker date="1538287014628" expanded="false" signature="6:139" ph="..." />
-                <marker date="1538287014628" expanded="true" signature="181:2129" ph="{...}" />
-                <marker date="1538287014628" expanded="true" signature="230:390" ph="{...}" />
-                <marker date="1538287014628" expanded="true" signature="266:315" ph="{...}" />
-                <marker date="1538287014628" expanded="true" signature="328:384" ph="{...}" />
-                <marker date="1538287014628" expanded="true" signature="476:657" ph="{...}" />
-                <marker date="1538287014628" expanded="true" signature="494:651" ph="{...}" />
-                <marker date="1538287014628" expanded="true" signature="538:612" ph="{...}" />
-                <marker date="1538287014628" expanded="true" signature="686:761" ph="{...}" />
-                <marker date="1538287014628" expanded="true" signature="874:1330" ph="{...}" />
-                <marker date="1538287014628" expanded="true" signature="881:1004" ph="/* UIManager.Instance.SetStatus(Constants.StatusDeadTapToStart); ... */" />
-                <marker date="1538287014628" expanded="true" signature="1043:1092" ph="{...}" />
-                <marker date="1538287014628" expanded="true" signature="1105:1324" ph="{...}" />
-                <marker date="1538287014628" expanded="true" signature="1356:1391" ph="{...}" />
-                <marker date="1538287014628" expanded="true" signature="1417:1499" ph="{...}" />
-                <marker date="1538287014628" expanded="true" signature="1533:1591" ph="{...}" />
-                <marker date="1538287014628" expanded="true" signature="1631:1857" ph="{...}" />
-                <marker date="1538287014628" expanded="true" signature="1897:2126" ph="{...}" />
+                <marker date="1538287257754" expanded="false" signature="6:139" ph="..." />
+                <marker date="1538287257754" expanded="true" signature="181:2129" ph="{...}" />
+                <marker date="1538287257754" expanded="true" signature="230:390" ph="{...}" />
+                <marker date="1538287257754" expanded="true" signature="266:315" ph="{...}" />
+                <marker date="1538287257754" expanded="true" signature="328:384" ph="{...}" />
+                <marker date="1538287257754" expanded="true" signature="476:657" ph="{...}" />
+                <marker date="1538287257754" expanded="true" signature="494:651" ph="{...}" />
+                <marker date="1538287257754" expanded="true" signature="538:612" ph="{...}" />
+                <marker date="1538287257754" expanded="true" signature="686:761" ph="{...}" />
+                <marker date="1538287257754" expanded="true" signature="874:1330" ph="{...}" />
+                <marker date="1538287257754" expanded="true" signature="881:1004" ph="/* UIManager.Instance.SetStatus(Constants.StatusDeadTapToStart); ... */" />
+                <marker date="1538287257754" expanded="true" signature="1043:1092" ph="{...}" />
+                <marker date="1538287257754" expanded="true" signature="1105:1324" ph="{...}" />
+                <marker date="1538287257754" expanded="true" signature="1356:1391" ph="{...}" />
+                <marker date="1538287257754" expanded="true" signature="1417:1499" ph="{...}" />
+                <marker date="1538287257754" expanded="true" signature="1533:1591" ph="{...}" />
+                <marker date="1538287257754" expanded="true" signature="1631:1857" ph="{...}" />
+                <marker date="1538287257754" expanded="true" signature="1897:2126" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -302,7 +296,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32284000" />
+    <option name="totallyTimeSpent" value="32527000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -680,27 +674,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameManager.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="473">
-          <caret line="70" column="66" selection-start-line="70" selection-start-column="66" selection-end-line="70" selection-end-column="66" />
+        <state relative-caret-position="249">
+          <caret line="50" column="36" selection-start-line="50" selection-start-column="36" selection-end-line="50" selection-end-column="36" />
           <folding>
-            <marker date="1538287014628" expanded="false" signature="6:139" ph="..." />
-            <marker date="1538287014628" expanded="true" signature="181:2129" ph="{...}" />
-            <marker date="1538287014628" expanded="true" signature="230:390" ph="{...}" />
-            <marker date="1538287014628" expanded="true" signature="266:315" ph="{...}" />
-            <marker date="1538287014628" expanded="true" signature="328:384" ph="{...}" />
-            <marker date="1538287014628" expanded="true" signature="476:657" ph="{...}" />
-            <marker date="1538287014628" expanded="true" signature="494:651" ph="{...}" />
-            <marker date="1538287014628" expanded="true" signature="538:612" ph="{...}" />
-            <marker date="1538287014628" expanded="true" signature="686:761" ph="{...}" />
-            <marker date="1538287014628" expanded="true" signature="874:1330" ph="{...}" />
-            <marker date="1538287014628" expanded="true" signature="881:1004" ph="/* UIManager.Instance.SetStatus(Constants.StatusDeadTapToStart); ... */" />
-            <marker date="1538287014628" expanded="true" signature="1043:1092" ph="{...}" />
-            <marker date="1538287014628" expanded="true" signature="1105:1324" ph="{...}" />
-            <marker date="1538287014628" expanded="true" signature="1356:1391" ph="{...}" />
-            <marker date="1538287014628" expanded="true" signature="1417:1499" ph="{...}" />
-            <marker date="1538287014628" expanded="true" signature="1533:1591" ph="{...}" />
-            <marker date="1538287014628" expanded="true" signature="1631:1857" ph="{...}" />
-            <marker date="1538287014628" expanded="true" signature="1897:2126" ph="{...}" />
+            <marker date="1538287257754" expanded="false" signature="6:139" ph="..." />
+            <marker date="1538287257754" expanded="true" signature="181:2129" ph="{...}" />
+            <marker date="1538287257754" expanded="true" signature="230:390" ph="{...}" />
+            <marker date="1538287257754" expanded="true" signature="266:315" ph="{...}" />
+            <marker date="1538287257754" expanded="true" signature="328:384" ph="{...}" />
+            <marker date="1538287257754" expanded="true" signature="476:657" ph="{...}" />
+            <marker date="1538287257754" expanded="true" signature="494:651" ph="{...}" />
+            <marker date="1538287257754" expanded="true" signature="538:612" ph="{...}" />
+            <marker date="1538287257754" expanded="true" signature="686:761" ph="{...}" />
+            <marker date="1538287257754" expanded="true" signature="874:1330" ph="{...}" />
+            <marker date="1538287257754" expanded="true" signature="881:1004" ph="/* UIManager.Instance.SetStatus(Constants.StatusDeadTapToStart); ... */" />
+            <marker date="1538287257754" expanded="true" signature="1043:1092" ph="{...}" />
+            <marker date="1538287257754" expanded="true" signature="1105:1324" ph="{...}" />
+            <marker date="1538287257754" expanded="true" signature="1356:1391" ph="{...}" />
+            <marker date="1538287257754" expanded="true" signature="1417:1499" ph="{...}" />
+            <marker date="1538287257754" expanded="true" signature="1533:1591" ph="{...}" />
+            <marker date="1538287257754" expanded="true" signature="1631:1857" ph="{...}" />
+            <marker date="1538287257754" expanded="true" signature="1897:2126" ph="{...}" />
           </folding>
         </state>
       </provider>

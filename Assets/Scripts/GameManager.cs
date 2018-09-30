@@ -48,13 +48,13 @@ public class GameManager : MonoBehaviour
     {
 //            UIManager.Instance.SetStatus(Constants.StatusDeadTapToStart);
 //            this.GameState = GameState.Dead; 
-        if (getCircle() - 0.2f > 0.2f)
+        if (getCircle() - 0.4f > 0.4f)
         {
-            decCircle(0.2f);
+            decCircle(0.4f);
         }
         else
         {
-            decCircle(0.2f);
+            decCircle(0.4f);
             UIManager.Instance.SetStatus(Constants.StatusDeadTapToStart);
             this.GameState = GameState.Dead;   
             SceneManager.LoadScene("MainMenu");
