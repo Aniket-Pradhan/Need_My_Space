@@ -108,7 +108,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b97bb84f9b2207846bfc01087051d7d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  LifeTime: 10
+  LifeTime: 15
 --- !u!114 &114457952735760598
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -120,5 +120,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0527d88f80173340899420936bdc573, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  bonus: 0
   ScorePoints: 100
   rotateSpeed: 50

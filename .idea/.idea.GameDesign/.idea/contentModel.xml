@@ -12,6 +12,7 @@
         <e p="CharacterRotateMovement.cs" t="Include" />
         <e p="CharacterSidewaysMovement.cs" t="Include" />
         <e p="Constants.cs" t="Include" />
+        <e p="DummyButton.cs" t="Include" />
         <e p="GameManager.cs" t="Include" />
         <e p="GameState.cs" t="Include" />
         <e p="Input" t="Include">
