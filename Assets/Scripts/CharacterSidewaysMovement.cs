@@ -95,10 +95,10 @@ public class CharacterSidewaysMovement : MonoBehaviour
                 break;
         }
         
-        if (moveDirection.z > 6f)
-        {
-            moveDirection = moveDirection - new Vector3(0, 0, 0.01f);
-        }
+//        if (moveDirection.z > 6f)
+//        {
+//            moveDirection = moveDirection - new Vector3(0, 0, 0.01f);
+//        }
 
     }
 
