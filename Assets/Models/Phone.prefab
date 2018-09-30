@@ -1,0 +1,130 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1454830674884696}
+  m_IsPrefabParent: 1
+--- !u!1 &1454830674884696
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4536645753238900}
+  - component: {fileID: 33229250429866962}
+  - component: {fileID: 23660439959728848}
+  - component: {fileID: 114700845762839082}
+  - component: {fileID: 114440996826674596}
+  - component: {fileID: 65589038591574180}
+  m_Layer: 0
+  m_Name: Phone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4536645753238900
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1454830674884696}
+  m_LocalRotation: {x: 0.0075222217, y: 0.9955368, z: 0.00041133972, w: -0.09407301}
+  m_LocalPosition: {x: 0.784, y: 1.983, z: 3.87}
+  m_LocalScale: {x: 0.008145081, y: 0.021443125, z: 0.015321267}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &23660439959728848
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1454830674884696}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 2fbcb7a911b06044097b8631fa9a7f56, type: 2}
+  - {fileID: 2100002, guid: 2db9a89d291064e4eb565e31b26df626, type: 3}
+  - {fileID: 2100000, guid: fac8cb0cced7c564da64dccee3e9ca90, type: 2}
+  - {fileID: 2100006, guid: 2db9a89d291064e4eb565e31b26df626, type: 3}
+  - {fileID: 2100008, guid: 2db9a89d291064e4eb565e31b26df626, type: 3}
+  - {fileID: 2100010, guid: 2db9a89d291064e4eb565e31b26df626, type: 3}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &33229250429866962
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1454830674884696}
+  m_Mesh: {fileID: 4300006, guid: 2db9a89d291064e4eb565e31b26df626, type: 3}
+--- !u!65 &65589038591574180
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1454830674884696}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 91.23895, y: 64.246414, z: 7.3434687}
+  m_Center: {x: -4.904755, y: -14.5393305, z: -0.07500023}
+--- !u!114 &114440996826674596
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1454830674884696}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b97bb84f9b2207846bfc01087051d7d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LifeTime: 15
+--- !u!114 &114700845762839082
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1454830674884696}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0527d88f80173340899420936bdc573, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bonus: 1
+  ScorePoints: 100
+  rotateSpeed: 50
