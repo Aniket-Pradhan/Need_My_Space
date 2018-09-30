@@ -12,5 +12,8 @@ EditorBuildSettings:
     path: Assets/Scenes/rotatedPathsLevel.unity
     guid: ee73cf4f3461af2488e33f22fe0e0e3c
   - enabled: 1
+    path: Assets/Scenes/nishtha.unity
+    guid: 8c6a57ae5fe99af44a41c4ac899d6ba8
+  - enabled: 1
     path: Assets/Scenes/straightPathsLevel.unity
     guid: 04c04415dccd44affa142385ff66b497

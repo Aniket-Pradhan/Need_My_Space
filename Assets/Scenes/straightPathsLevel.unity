@@ -1113,6 +1113,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ScoreText: {fileID: 395848526}
   StatusText: {fileID: 967585073}
+  AnxLevel: {fileID: 1220177557}
 --- !u!114 &737401840
 MonoBehaviour:
   m_ObjectHideFlags: 0

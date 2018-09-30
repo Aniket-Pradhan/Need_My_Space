@@ -21,6 +21,11 @@ public class StuffSpawner : MonoBehaviour
         //http://answers.unity3d.com/questions/585266/question-about-randomrange.html
         bool placeObstacle = Random.Range(0, 2) == 0; //50% chances
         int obstacleIndex = -1;
+        if (!placeObstacle)
+        {
+            placeObstacle = Random.Range(0, 2) == 0; //50% chances
+
+        }
         if (placeObstacle)
         {
             //select a random spawn point, apart from the first one
@@ -35,7 +40,7 @@ public class StuffSpawner : MonoBehaviour
         {
             //don't instantiate if there's an obstacle
             if (i == obstacleIndex) continue;
-            if (Random.Range(0, 3) == 0) //33% chances to create candy
+            if (Random.Range(0, 5) == 0) //20% chances to create candy
             {
                 CreateObject(StuffSpawnPoints[i].position, Bonus[Random.Range(0, Bonus.Length)]);
             }

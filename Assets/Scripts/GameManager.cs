@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -55,7 +56,8 @@ public class GameManager : MonoBehaviour
         {
             decCircle(0.2f);
             UIManager.Instance.SetStatus(Constants.StatusDeadTapToStart);
-            this.GameState = GameState.Dead;             
+            this.GameState = GameState.Dead;   
+            SceneManager.LoadScene("MainMenu");
         }
     }
     

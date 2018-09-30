@@ -30,6 +30,7 @@ public class AudioManager : MonoBehaviour
 			s.source.loop = s.loop;
 
 			s.source.outputAudioMixerGroup = mixerGroup;
+			
 		}
 	}
 
@@ -48,8 +49,17 @@ public class AudioManager : MonoBehaviour
 
 		s.source.volume = s.volume * (1f + UnityEngine.Random.Range(-s.volumeVariance / 2f, s.volumeVariance / 2f));
 		s.source.pitch = s.pitch * (1f + UnityEngine.Random.Range(-s.pitchVariance / 2f, s.pitchVariance / 2f));
-
+		
+		
 		s.source.Play();
 	}
 
+	public void Changevolume()
+	{
+		foreach (Sound s in sounds)
+		{
+//			s.source.volume = s.volumein.value;
+
+		}
+	}
 }
