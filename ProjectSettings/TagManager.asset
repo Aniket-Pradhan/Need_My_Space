@@ -8,6 +8,8 @@ TagManager:
   - RotateGO
   - WidePathBorder
   - Sphere
+  - hyperx
+  - phone
   layers:
   - Default
   - TransparentFX

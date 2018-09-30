@@ -116,7 +116,7 @@ public class CharacterSidewaysMovement : MonoBehaviour
 //        }
 //        else
 //        {
-            anim.SetBool(Constants.AnimationJump, false);
+//            anim.SetBool(Constants.AnimationJump, false);
 //        }
 
 
@@ -147,6 +147,11 @@ public class CharacterSidewaysMovement : MonoBehaviour
             isChangingLane = false;
             moveDirection.x = 0;
         }
+    }
+
+    public void incSpeed(float val)
+    {
+        moveDirection *= val;
     }
 
     

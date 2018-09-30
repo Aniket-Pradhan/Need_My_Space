@@ -228,7 +228,7 @@ GameObject:
   - component: {fileID: 114543509868850306}
   m_Layer: 0
   m_Name: hyperx
-  m_TagString: Untagged
+  m_TagString: hyperx
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

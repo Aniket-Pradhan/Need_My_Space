@@ -29,6 +29,15 @@ public class Candy : MonoBehaviour
             //Activate special ability for `x` seconds
             //Phone -> Shield, for upto 15s. Basically, it increases the radius of the sphere by 10 pts, for 15 seconds. OR something like, it gets a clean chit for another contact
             //HeadPhones -> Increases the personal space by 20. 
+            if (this.gameObject.tag.CompareTo("phone") == 0)
+            {
+                GameManager.Instance.bonus1();    
+            }
+            else
+            {
+                GameManager.Instance.bonus2();
+            }
+            Debug.Log(this.gameObject.name + " " + this.gameObject.tag);
             
             Destroy(this.gameObject);
         }
