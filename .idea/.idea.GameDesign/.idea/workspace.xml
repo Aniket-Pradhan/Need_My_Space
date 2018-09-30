@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e39786c7-667b-42b3-9f92-09b8a2661655" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GameDesign/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GameDesign/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CharacterSidewaysMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CharacterSidewaysMovement.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/assetDatabase3" beforeDir="false" afterPath="$PROJECT_DIR$/Library/assetDatabase3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe0.log" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -30,10 +32,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GameManager.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="GameManager.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameManager.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="249">
+            <state relative-caret-position="765">
               <caret line="50" column="36" selection-start-line="50" selection-start-column="36" selection-end-line="50" selection-end-column="36" />
               <folding>
                 <marker date="1538287257754" expanded="false" signature="6:139" ph="..." />
@@ -117,31 +119,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CharacterSidewaysMovement.cs" pinned="false" current-in-tab="false">
+      <file leaf-file-name="CharacterSidewaysMovement.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/CharacterSidewaysMovement.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="371">
-              <caret line="153" column="22" selection-start-line="153" selection-start-column="22" selection-end-line="153" selection-end-column="22" />
+            <state relative-caret-position="320">
+              <caret line="60" column="17" selection-start-line="60" selection-start-column="17" selection-end-line="60" selection-end-column="17" />
               <folding>
-                <marker date="1538286934994" expanded="false" signature="7:102" ph="..." />
-                <marker date="1538286934994" expanded="true" signature="158:4591" ph="{...}" />
-                <marker date="1538286934994" expanded="true" signature="776:1299" ph="{...}" />
-                <marker date="1538286934994" expanded="true" signature="1357:3003" ph="{...}" />
-                <marker date="1538286934994" expanded="true" signature="1411:2996" ph="{...}" />
-                <marker date="1538286934994" expanded="true" signature="1530:1799" ph="{...}" />
-                <marker date="1538286934994" expanded="true" signature="2124:2391" ph="{...}" />
-                <marker date="1538286934994" expanded="true" signature="2236:2373" ph="{...}" />
-                <marker date="1538286934994" expanded="true" signature="2767:2919" ph="{...}" />
-                <marker date="1538286934994" expanded="true" signature="3035:3145" ph="{...}" />
-                <marker date="1538286934994" expanded="true" signature="3079:3139" ph="{...}" />
-                <marker date="1538286934994" expanded="true" signature="3192:4227" ph="{...}" />
-                <marker date="1538286934994" expanded="true" signature="3266:3627" ph="/* if (controller.isGrounded &amp;&amp; inputDirection.HasValue &amp;&amp; inputDirection == InputDirection.Top ... */" />
-                <marker date="1538286934994" expanded="true" signature="3710:4219" ph="{...}" />
-                <marker date="1538286934994" expanded="true" signature="3811:3980" ph="{...}" />
-                <marker date="1538286934994" expanded="true" signature="4041:4209" ph="{...}" />
-                <marker date="1538286934994" expanded="true" signature="4295:4503" ph="{...}" />
-                <marker date="1538286934994" expanded="true" signature="4408:4497" ph="{...}" />
-                <marker date="1538286934994" expanded="true" signature="4540:4582" ph="{...}" />
+                <marker date="1538287907265" expanded="false" signature="7:102" ph="..." />
+                <marker date="1538287907265" expanded="true" signature="158:3009" ph="{...}" />
+                <marker date="1538287907265" expanded="true" signature="776:1299" ph="{...}" />
+                <marker date="1538287907265" expanded="true" signature="1357:3002" ph="{...}" />
+                <marker date="1538287907265" expanded="true" signature="1411:1805" ph="{...}" />
+                <marker date="1538287907265" expanded="true" signature="1456:1552" ph="/* if (Input.GetMouseButtonDown(0) || Input.GetKeyDown(&quot;a&quot;)) ... */" />
+                <marker date="1538287907265" expanded="true" signature="2130:2397" ph="{...}" />
+                <marker date="1538287907265" expanded="true" signature="2242:2379" ph="{...}" />
+                <marker date="1538287907265" expanded="true" signature="2773:2925" ph="{...}" />
+                <marker date="1538287907265" expanded="true" signature="3272:3633" ph="/* if (controller.isGrounded &amp;&amp; inputDirection.HasValue &amp;&amp; inputDirection == InputDirection.Top ... */" />
               </folding>
             </state>
           </provider>
@@ -173,9 +166,9 @@
       <find>y</find>
       <find>BushSpawnPoints</find>
       <find>Bonus</find>
-      <find>Die</find>
       <find>Speed</find>
       <find>moveDirection</find>
+      <find>Die</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -213,8 +206,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Obstacle.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/StuffSpawner.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Candy.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/CharacterSidewaysMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CharacterSidewaysMovement.cs" />
       </list>
     </option>
   </component>
@@ -246,6 +239,11 @@
             <path>
               <item name="" type="ad4990d8:FileSystemViewPaneBase$ProjectViewPaneTreeStructure$createRoot$1" />
               <item name="GameDesign" type="483dac07:UnityExplorerNode$Root" />
+            </path>
+            <path>
+              <item name="" type="ad4990d8:FileSystemViewPaneBase$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="GameDesign" type="483dac07:UnityExplorerNode$Root" />
+              <item name="" type="1045f7f1:UnityExplorerNode" />
             </path>
             <path>
               <item name="" type="ad4990d8:FileSystemViewPaneBase$ProjectViewPaneTreeStructure$createRoot$1" />
@@ -296,7 +294,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32527000" />
+    <option name="totallyTimeSpent" value="33176000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -320,7 +318,7 @@
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" sideWeight="0.49924356" weight="0.3283582" />
       <window_info anchor="bottom" id="Terminal" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.24962178" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Unity" />
       <window_info anchor="bottom" id="Build" sideWeight="0.49924356" weight="0.3283582" />
@@ -644,37 +642,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/CharacterSidewaysMovement.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="153" column="22" selection-start-line="153" selection-start-column="22" selection-end-line="153" selection-end-column="22" />
-          <folding>
-            <marker date="1538286934994" expanded="false" signature="7:102" ph="..." />
-            <marker date="1538286934994" expanded="true" signature="158:4591" ph="{...}" />
-            <marker date="1538286934994" expanded="true" signature="776:1299" ph="{...}" />
-            <marker date="1538286934994" expanded="true" signature="1357:3003" ph="{...}" />
-            <marker date="1538286934994" expanded="true" signature="1411:2996" ph="{...}" />
-            <marker date="1538286934994" expanded="true" signature="1530:1799" ph="{...}" />
-            <marker date="1538286934994" expanded="true" signature="2124:2391" ph="{...}" />
-            <marker date="1538286934994" expanded="true" signature="2236:2373" ph="{...}" />
-            <marker date="1538286934994" expanded="true" signature="2767:2919" ph="{...}" />
-            <marker date="1538286934994" expanded="true" signature="3035:3145" ph="{...}" />
-            <marker date="1538286934994" expanded="true" signature="3079:3139" ph="{...}" />
-            <marker date="1538286934994" expanded="true" signature="3192:4227" ph="{...}" />
-            <marker date="1538286934994" expanded="true" signature="3266:3627" ph="/* if (controller.isGrounded &amp;&amp; inputDirection.HasValue &amp;&amp; inputDirection == InputDirection.Top ... */" />
-            <marker date="1538286934994" expanded="true" signature="3710:4219" ph="{...}" />
-            <marker date="1538286934994" expanded="true" signature="3811:3980" ph="{...}" />
-            <marker date="1538286934994" expanded="true" signature="4041:4209" ph="{...}" />
-            <marker date="1538286934994" expanded="true" signature="4295:4503" ph="{...}" />
-            <marker date="1538286934994" expanded="true" signature="4408:4497" ph="{...}" />
-            <marker date="1538286934994" expanded="true" signature="4540:4582" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameManager.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
+        <state relative-caret-position="765">
           <caret line="50" column="36" selection-start-line="50" selection-start-column="36" selection-end-line="50" selection-end-column="36" />
           <folding>
             <marker date="1538287257754" expanded="false" signature="6:139" ph="..." />
@@ -695,6 +665,25 @@
             <marker date="1538287257754" expanded="true" signature="1533:1591" ph="{...}" />
             <marker date="1538287257754" expanded="true" signature="1631:1857" ph="{...}" />
             <marker date="1538287257754" expanded="true" signature="1897:2126" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/CharacterSidewaysMovement.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="60" column="17" selection-start-line="60" selection-start-column="17" selection-end-line="60" selection-end-column="17" />
+          <folding>
+            <marker date="1538287907265" expanded="false" signature="7:102" ph="..." />
+            <marker date="1538287907265" expanded="true" signature="158:3009" ph="{...}" />
+            <marker date="1538287907265" expanded="true" signature="776:1299" ph="{...}" />
+            <marker date="1538287907265" expanded="true" signature="1357:3002" ph="{...}" />
+            <marker date="1538287907265" expanded="true" signature="1411:1805" ph="{...}" />
+            <marker date="1538287907265" expanded="true" signature="1456:1552" ph="/* if (Input.GetMouseButtonDown(0) || Input.GetKeyDown(&quot;a&quot;)) ... */" />
+            <marker date="1538287907265" expanded="true" signature="2130:2397" ph="{...}" />
+            <marker date="1538287907265" expanded="true" signature="2242:2379" ph="{...}" />
+            <marker date="1538287907265" expanded="true" signature="2773:2925" ph="{...}" />
+            <marker date="1538287907265" expanded="true" signature="3272:3633" ph="/* if (controller.isGrounded &amp;&amp; inputDirection.HasValue &amp;&amp; inputDirection == InputDirection.Top ... */" />
           </folding>
         </state>
       </provider>

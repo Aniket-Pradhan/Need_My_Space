@@ -50,14 +50,14 @@ public class CharacterSidewaysMovement : MonoBehaviour
         switch (GameManager.Instance.GameState)
         {
             case GameState.Start:
-                if (Input.GetMouseButtonDown(0) || Input.GetKeyDown("a")) 
-                {
+//                if (Input.GetMouseButtonDown(0) || Input.GetKeyDown("a")) 
+//                {
                     anim.SetBool("Running", true);
                     var instance = GameManager.Instance;
                     instance.GameState = GameState.Playing;
 
                     UIManager.Instance.SetStatus(string.Empty);
-                }
+//                }
                 break;
             case GameState.Playing:
 //                UIManager.Instance.IncreaseScore(1f);
