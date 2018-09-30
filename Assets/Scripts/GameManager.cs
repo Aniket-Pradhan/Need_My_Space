@@ -48,17 +48,27 @@ public class GameManager : MonoBehaviour
     {
 //            UIManager.Instance.SetStatus(Constants.StatusDeadTapToStart);
 //            this.GameState = GameState.Dead; 
-        if (getCircle() - 0.2f > 0.2f)
+        if (getCircle() - 0.4f > 0.4f)
         {
-            decCircle(0.2f);
+            decCircle(0.4f);
         }
         else
         {
-            decCircle(0.2f);
+            decCircle(0.4f);
             UIManager.Instance.SetStatus(Constants.StatusDeadTapToStart);
             this.GameState = GameState.Dead;   
             SceneManager.LoadScene("MainMenu");
         }
+    }
+
+    public void bonus1()
+    {
+        incCircle(1f);
+    }
+
+    public void bonus2()
+    {
+        FindObjectOfType<CharacterSidewaysMovement>().incSpeed(1.3f);
     }
     
     public float getCircle()
@@ -72,6 +82,14 @@ public class GameManager : MonoBehaviour
         circle.transform.localScale = new Vector3(val-value,val-value,val-value);
         Debug.Log(1/value);
         UIManager.Instance.IncreaseAnScore(1/value);
+    }
+
+    public void incCircle(float value)
+    {
+        float val = circle.transform.localScale.x;
+        circle.transform.localScale = new Vector3(val+value,val+value,val+value);
+        Debug.Log(1/value);
+        UIManager.Instance.IncreaseAnScore(value * 20);
     }
 
 }
